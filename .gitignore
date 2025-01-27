@@ -1,25 +1,39 @@
-# Ignore Python bytecode
+# Bytecode and cache
 *.pyc
 __pycache__/
 
-# Ignore virtual environments
+# Virtual environments
 env/
 venv/
 
-# Ignore system files
+# System files
 .DS_Store
 Thumbs.db
+Desktop.ini
+.fuse_hidden*
+.nfs*
 
-# Ignore editor-specific files
-.vscode/
-.idea/
-
-# Ignore compiled Tkinter files (if any)
-*.pyw
-
-# Ignore logs and temporary files
+# Logs and temp files
 *.log
 *.tmp
+*.bak
+*.swp
+*.swo
+*.pid
 
-# Ignore JSON data backups (if needed)
-*.json
+# Editor/IDE settings
+.vscode/
+.idea/
+*.code-workspace
+
+# Secrets
+.env
+.env.*
+
+# Task-related files (customize as needed)
+tasks.json
+
+# Build and dist folders
+build/
+dist/
+*.egg-info/
