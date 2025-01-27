@@ -13,9 +13,7 @@ A simple Python-based task management application built with Tkinter. It allows 
 1. Clone the repository:
 
 2. Navigate to the project folder:
-   ```bash
-   cd task-manager
-   ```
+
 3. Install Python if it’s not already installed. [Download Python here](https://www.python.org/).
 
 4. Run the script:
