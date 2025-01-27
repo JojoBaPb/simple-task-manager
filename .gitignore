@@ -1,0 +1,25 @@
+# Ignore Python bytecode
+*.pyc
+__pycache__/
+
+# Ignore virtual environments
+env/
+venv/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+
+# Ignore compiled Tkinter files (if any)
+*.pyw
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore JSON data backups (if needed)
+*.json
